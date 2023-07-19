@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title></title>
 </head>
 <body>
     <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="recipes/salsa-chicken.html">Chicken Salsa</a></li>
-        <li><a href="recipes/mostaccioli.html">Mexican Mostaccioli</a></li>
-    </ul>
+    <div id="main-menu">
+        <div class="menu menu-chicken">
+            <a href="recipes/salsa-chicken.html"><img src="images/chicken salsa.png" alt="Salsa Chicken" style="width:100%;"></a>
+            <div class="chicken"><a href="recipes/salsa-chicken.html">Salsa Chicken</a></div>
+        </div>
+
+        <div class="menu menu-lasagna">
+            <a href="recipes/lasagna.html"><img src="images/lasagna finished.png" alt="Lasagna" style="width:100%;"></a>
+            <div class="lasagna"><a href="recipes/lasagna.html">Lasagna</a></div>
+        </div>
+
+        <div class="menu menu-mexican">
+            <img src="images/Mexican mostaccioli.png" alt="Mexican Mostaccioli" style="width:100%;">
+            <div class="mexican">Mexican Mostaccioli</div>
+        </div>
+    </div>
 </body>
 </html>
